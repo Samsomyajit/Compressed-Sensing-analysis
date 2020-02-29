@@ -1,0 +1,103 @@
+Paper by Meenu Rani
+CS using nonlinear reconstruction techniques.
+CS works using non adaptive random measurements.
+The acquisition model.
+Signal length n and random length m and use a random m x n matrix (measurement matrix). Few more things to be considered.
+Reconstruction model
+Using a reconstruction matrix with the generated vector from acquisition model
+Usage of sparse coeff vector of length n
+Using Lo optimisation which is NP hard
+Using L1 minimization using linear programming.
+Necessary conditions for perfect recovery (can we get rid of them)
+Restricted isometry property
+Incoherency between the measurement basis and sparse basis
+Measurement matrices has gaussian distribution. Use of structured matrices.
+Acquisition techniques:
+Random demodulator
+Modulated wideband controller
+Random Modulation Pre-Integrator
+Random Filtering
+Random convolution
+Compressive Multiplexing
+Random Equivalent Sampling
+Random Triggering-based Modulated Wideband Compressive Sampling
+Quadrature Analog to information Converter.
+Reconstruction techniques:
+Convex Optimisation Techniques
+Basis pursuit
+Denoising using convex approach
+Solvers for complex approach
+Greedy Approach
+Serial greedy
+Parallel greedy
+Threshold Approach
+Iterative hard thresholding algorithm
+Iterative soft thresholding algorithm
+Approximate message passing algorithm
+Combinatorial Approach
+Non-convex approach
+Bayesian Approach
+
+Another paper on jpeg end to end compression and decompression
+https://arxiv.org/pdf/1706.01000.pdf
+
+
+Bible of Digital Signal Processing.
+http://dsp.rice.edu/cs/
+
+
+ML and CS 
+https://arxiv.org/pdf/1806.10175.pdf
+
+
+
+
+
+
+
+
+
+
+
+DATA Section
+https://www.hindawi.com/journals/mpe/2014/546478/
+This paper has done some positive data collection and used different methods to demonstrate compressed sensing with the collected data
+https://www.hindawi.com/journals/mpe/2014/546478/fig4/
+https://www.hindawi.com/journals/mpe/2014/546478/fig5/
+https://www.hindawi.com/journals/mpe/2014/546478/fig6/
+https://www.hindawi.com/journals/mpe/2014/546478/fig7/
+https://www.hindawi.com/journals/mpe/2014/546478/fig8/
+https://www.hindawi.com/journals/mpe/2014/546478/fig9/
+
+Another paper with the usage of visual data 
+https://www.researchgate.net/publication/281643030_Missing_Data_Interpolation_Using_Compressive_Sensing_An_Application_for_Sales_Data_Gathering
+
+
+Python used for image processing : 
+https://scipy-lectures.org/advanced/image_processing/
+https://devarea.com/simple-image-processing-with-python/#.XbQIV3UzbeQ
+
+Python used for audio and dsp
+https://devarea.com/simple-image-processing-with-python/#.XbQIV3UzbeQ
+
+
+
+The Acquisition model that we will code :
+Random demodulator
+Modulated Wideband Converter 
+Random Modulation pre integrator
+Reconstruction: 
+both the algo for greedy algorithms
+
+
+
+
+The models we are working on.
+Random Demodulator
+CMUX
+Random filtering
+Random Convolution
+
+Reconstruction Used.
+
+
